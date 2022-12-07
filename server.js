@@ -91,7 +91,7 @@ app.post('/add_palavras', (req, res) => {
   res.send("status 200");
 });
 
-var server = app.listen(process.env.PORT || 3000, function () {
+var server = app.listen(process.env.PORT || 80, function () {
   console.log("Listening on port %s", server.address().port);
 });
 
